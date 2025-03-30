@@ -1,0 +1,23 @@
+[features]
+seeds = false
+skip-lint = false
+
+[programs.devnet]
+mmp_token = "MMP111111111111111111111111111111111111111"
+mmp_governance = "MMPG111111111111111111111111111111111111111"
+mmp_data_access = "MMPA111111111111111111111111111111111111111"
+
+[programs.mainnet-beta]
+mmp_token = "MMP111111111111111111111111111111111111111"
+mmp_governance = "MMPG111111111111111111111111111111111111111"
+mmp_data_access = "MMPA111111111111111111111111111111111111111"
+
+[registry]
+url = "https://api.apr.dev"
+
+[provider]
+cluster = "devnet"
+wallet = "~/.config/solana/id.json"
+
+[scripts]
+test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/" 
