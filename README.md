@@ -1,6 +1,7 @@
 # Mushroom Mars Protocol (MMP)
 
 <div align="center">
+  <!-- MMP Logo -->
   <img src="https://github.com/user-attachments/assets/a6705510-039a-4218-b94d-5679e0e410a4" alt="MMP Logo" width="250" style="background: transparent;">
 
   [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
